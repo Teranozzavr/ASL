@@ -39,6 +39,13 @@
                 font-weight: 500;
                 background-color: #DA1648;
                 border-radius: 35px;
+                border: 1px solid transparent;
+                transition: 0.5s;
+                &:hover {
+                    border: 1px solid #14161B;
+                    background-color: #FFFFFF;
+                    color: #14161B;
+                }
             }
         }
     }
@@ -81,7 +88,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            img {
+            a {
                 &:nth-child(1) {
                     margin-right: 7.53333em;
                     width: 9.896vw;
@@ -95,13 +102,18 @@
                 &:nth-child(3) {
                     width: 1.979vw;
                 }
+                img {
+                    width: 100%;
+                    height: auto;
+                }
             }
         }
 
         .wrap-bottom {
             display: flex;
+            align-items: center;
 
-            img {
+            a {
                 &:nth-child(1) {
                     margin-right: 1.2em;
                     width: 16.510vw;
@@ -114,6 +126,10 @@
 
                 &:nth-child(3) {
                     width: 6.302vw;
+                }
+                img {
+                    width: 100%;
+                    height: auto;
                 }
             }
         }

@@ -37,6 +37,7 @@
             align-items: center;
             .wrap-mobile__content {
                 display: flex;
+                align-items: center;
                 width: 100%;
                 left: 100%;
                 right: 0;
@@ -63,6 +64,12 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    transition: 0.5s;
+                    &:hover {
+                        border-color: #DA1648;
+                        background-color: #DA1648;
+                        color: #FFFFFF;
+                    }
                 }
             }
  
